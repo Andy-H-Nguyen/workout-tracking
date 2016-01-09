@@ -14,11 +14,10 @@ class User < ActiveRecord::Base
     (user_stocks.count < 10)
   end
   
-  #To fix, stock already added by one user causes it to be unavailable to other users 
   def stock_already_added?(ticker_symbol)
     stock = Stock.find_by_ticker(ticker_symbol)
     return false unless stock
-    return user_stocks.where(stock_id: stock_id).exists?
+    return user_stocks.where(stock_id: stock.id).exists?
   end
   
 end
