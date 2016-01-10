@@ -1,3 +1,7 @@
 <h1>Welcome to the finance tracker app</h1>
 
-<%= link_to "logout", destroy_user_session_path, method: :delete %>
+<div class="portfolio-actions">
+<%= link_to "Add Stocks", my_portfolio_path, class: "btn btn-primary btn-lg" %>
+
+<%= link_to "Logout", destroy_user_session_path, method: :delete, class: "btn btn-danger btn-lg" %>
+</div>
