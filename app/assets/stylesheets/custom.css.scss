@@ -1,0 +1,81 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+  padding-top:70px;
+  background-color:#e0c9cf;
+}
+.navbar{
+  background-image:url("http://www.designbolts.com/wp-content/uploads/2012/12/White-Gradient-Squares-Seamless-Patterns-For-Website-Backgrounds.jpg") !important;
+  color: #474749 ; 
+}
+.navbar-header{
+  background-color: #dddddd;
+  padding-left:10px;
+}
+.navbar{
+  color:#7D1935 !important;
+
+}
+.btn-search{
+  background-color:#e0c9cf;
+}
+
+
+
+.dashboard-jumbo{
+  background-image: url("http://www.jameshotels.com/polopoly_fs/1.2203.1377620758!/fileImage/httpImage/image.jpg_gen/derivatives/landscape_1615/jny-restbar-jimmy-lounge-06182013-jpg.jpg");
+  background-position:40% 30%;
+  color: white;
+  width:100%;
+}
+.athlete-container{
+  color:#7f260b;
+  border-radius:0px;
+}
+#exercises-container, #white-container{
+  background-color:white;
+  margin-bottom:10px;
+  padding-bottom:10px;
+}
+#white-container{
+  padding:10px;
+}
+.friends-container{
+  margin-left:5px;
+}
+.friend-container{
+  padding-bottom:20px;
+}
+.alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+}
+
+.alert-alert, #error_explanation {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+  text-align: left;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+}
+
+.alert-notice {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;  
+  text-align: left;
+}
+
+#error_explanation {
+  padding: 15px 15px 15px 30px;
+  margin-bottom: 30px;
+}
