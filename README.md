@@ -14,4 +14,4 @@ This is a workout track to track your friends and your workouts
 Head on over to: https://workout-app-andy.herokuapp.com/
 
 -Main Page
-![Main Page](http://imgur.com/a/Kmp1f)
+![Main Page](https://i.imgur.com/wHadF6u.png)
